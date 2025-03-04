@@ -38,7 +38,7 @@ public class Main {
                 System.out.println("Nuevo juego iniciado.");
             } else {
                 System.out.println("¡Gracias por jugar!");
-                break; // Sale del bucle principal y termina el programa
+                break; 
             }
         }
 
