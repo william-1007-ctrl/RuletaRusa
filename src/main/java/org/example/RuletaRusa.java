@@ -9,7 +9,6 @@ public class RuletaRusa {
     private int posicionActual;
     private Random random;
 
-    // Constructor por defecto
     public RuletaRusa() {
         this.tambor = new ArrayList<>();
         for (int i = 0; i < 6; i++) {
@@ -53,7 +52,6 @@ public class RuletaRusa {
         this.posicionActual = posicionActual;
     }
 
-    // Método toString()
     @Override
     public String toString() {
         return "RuletaRusa{" +
